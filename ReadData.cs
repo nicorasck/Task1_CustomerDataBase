@@ -17,7 +17,7 @@ public class ReadData
             {
                 foreach (var item in _customer)
                 {
-                    System.Console.WriteLine($"Name: {item.Name}, PhoneNumber: {item.PhoneNumber}, Adress: {item.Address.Street}, City: {item.Address.City}");
+                    System.Console.WriteLine($"Name: {item.Name}, PhoneNumber: {item.PhoneNumber}, Address: {item.Address.Street}, City: {item.Address.City}");
                 }
             }
             else

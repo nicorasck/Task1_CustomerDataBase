@@ -150,3 +150,4 @@ C:\Users\nicho\development\projects\DAB\MyRepos\Entity Framework\Task1_CustomerD
 C:\Users\nicho\development\projects\DAB\MyRepos\Entity Framework\Task1_CustomerDataBase\obj\Debug\net8.0\Task1_CustomerDataBase.pdb
 C:\Users\nicho\development\projects\DAB\MyRepos\Entity Framework\Task1_CustomerDataBase\obj\Debug\net8.0\Task1_CustomerDataBase.genruntimeconfig.cache
 C:\Users\nicho\development\projects\DAB\MyRepos\Entity Framework\Task1_CustomerDataBase\obj\Debug\net8.0\ref\Task1_CustomerDataBase.dll
+c:\Users\nicho\development\projects\DAB\MyRepos\Entity Framework\Task1_CustomerDataBase\obj\Debug\net8.0\Task1_CustomerDataBase.sourcelink.json

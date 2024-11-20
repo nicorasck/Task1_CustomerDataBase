@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicho\\development\\projects\\DAB\\MyRepos\\Entity Framework\\Task1_CustomerDataBase\\Task1_CustomerDataBase.csproj": {}
+    "c:\\Users\\nicho\\development\\projects\\DAB\\MyRepos\\Entity Framework\\Task1_CustomerDataBase\\Task1_CustomerDataBase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicho\\development\\projects\\DAB\\MyRepos\\Entity Framework\\Task1_CustomerDataBase\\Task1_CustomerDataBase.csproj": {
+    "c:\\Users\\nicho\\development\\projects\\DAB\\MyRepos\\Entity Framework\\Task1_CustomerDataBase\\Task1_CustomerDataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicho\\development\\projects\\DAB\\MyRepos\\Entity Framework\\Task1_CustomerDataBase\\Task1_CustomerDataBase.csproj",
+        "projectUniqueName": "c:\\Users\\nicho\\development\\projects\\DAB\\MyRepos\\Entity Framework\\Task1_CustomerDataBase\\Task1_CustomerDataBase.csproj",
         "projectName": "Task1_CustomerDataBase",
-        "projectPath": "C:\\Users\\nicho\\development\\projects\\DAB\\MyRepos\\Entity Framework\\Task1_CustomerDataBase\\Task1_CustomerDataBase.csproj",
+        "projectPath": "c:\\Users\\nicho\\development\\projects\\DAB\\MyRepos\\Entity Framework\\Task1_CustomerDataBase\\Task1_CustomerDataBase.csproj",
         "packagesPath": "C:\\Users\\nicho\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicho\\development\\projects\\DAB\\MyRepos\\Entity Framework\\Task1_CustomerDataBase\\obj\\",
+        "outputPath": "c:\\Users\\nicho\\development\\projects\\DAB\\MyRepos\\Entity Framework\\Task1_CustomerDataBase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
