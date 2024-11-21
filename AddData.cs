@@ -9,31 +9,46 @@ public class AddData
     {
         using (var context = new AppDbContext())
         {
-            // Create new address
-            var _address = new Address
+
+            var transaction = context.Database.BeginTransaction();
+
+            try
             {
-                Street = "Storgatan 1",
-                City = "Stockholm"
-            };
+                var _address = new Address
+                {
+                    Street = "Malmskilnadsgatan 69",
+                    City = "Stockholm"
+                };
 
-            // Add address in DataBase
-            context.Addresses.Add(_address);    // the table name is Address
+                context.Addresses.Add(_address);
 
-            // Create a new person and link it to the address
-            var _customer = new Customer
+                var customer1 = new Customer
+                {
+                    Name = "Ashooka Bazooka",
+                    PhoneNumber = "0745875608",
+                    Address = _address
+                };
+
+                var customer2 = new Customer
+                {
+                    Name = "Jojje Boy",
+                    PhoneNumber = "0745875643",
+                    Address = _address
+                };
+
+                context.Customers.Add(customer1);
+                context.Customers.Add(customer2);
+
+                context.SaveChanges();
+                transaction.Commit();
+                System.Console.WriteLine("Saved changes");
+            }
+            catch (Exception ex)
             {
-                Name = "Erik Johansson",
-                PhoneNumber = "0739876543",
-                Address = _address
-            };
+                transaction.Rollback();
+                System.Console.WriteLine("Ops! An error occurred: " + ex.Message);
+            }
 
-            // Add person in DataBase
-            context.Customers.Add(_customer);    // the table name is People
-
-            // Save changes
-            context.SaveChanges();
-            System.Console.WriteLine("Data has been saved in the DataBase.");
         }
-
     }
 }

@@ -7,6 +7,7 @@ public class ReadData
 {
     public static void Run()
     {
+        
         using (var context = new AppDbContext())
         {
             var _customer = context.Customers
